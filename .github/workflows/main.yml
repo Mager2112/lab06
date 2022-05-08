@@ -1,4 +1,4 @@
-ame: CI
+name: CI
 
 on:
 
@@ -102,3 +102,4 @@ jobs:
             cmake ..
             cmake --build .
             cpack -G DragNDrop
+            
